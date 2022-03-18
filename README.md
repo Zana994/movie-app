@@ -1,3 +1,13 @@
+# Desktop Version Movie App
+
+Movie App consists of Landing, Movie and Search page with addition of Favorites and Visited pages.
+--> Landing page displays Popular, Top Rated and Upcoming movies. If we click on any of that movies, it leads us to 
+    Movie page which displays all its details as well as Recommended and Similar lists of movies. Also, here we have an option
+    to mark movie as favorite.
+--> In the header we have search option for movie search by keywords. Search page will show list of movies which titles match entered keywords.
+    Also in the header there is navigation for Favorites and Visited movies that displays all movies marked as favorites and all visited movies,
+    respectively.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
