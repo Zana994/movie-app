@@ -1,0 +1,29 @@
+.movie_nav_container {
+    display: flex;
+    margin: 2rem 0;
+    [class^='movie_display_button'] {
+        background-color: #ffffff;
+        padding: 0.8rem;
+        color: rgb(151, 148, 148);
+        letter-spacing: 0.1rem;
+        outline: none;
+
+        &:hover { 
+            background-color: #1F4287;
+            color: #DDDDDD;
+        }
+    }
+    .movie_display_button1, .movie_display_button2 { border-right: 1px solid rgb(184, 184, 184);}
+    .movie_display_button1 {
+        border-top-left-radius: 0.4rem;
+        border-bottom-left-radius: 0.4rem;
+    }
+    .movie_display_button3 {
+        border-top-right-radius: 0.4rem;
+        border-bottom-right-radius: 0.4rem;
+    }
+    .active { 
+        background-color: #1F4287;
+        color: #DDDDDD;
+    }
+}

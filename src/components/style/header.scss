@@ -1,0 +1,30 @@
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #DDDDDD;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .input-group {
+        width: 25vw;
+    }
+    ::placeholder { letter-spacing: 0.1rem;}
+
+    .favorites_visited {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 15vw;
+        .line {
+            width: 2px;
+            height: 1.5rem;
+            background-color: #DDDDDD;
+            margin: 0 0.5rem;
+        }
+        p { 
+            margin: 0;
+            color: #DDDDDD;
+        }
+    }
+}

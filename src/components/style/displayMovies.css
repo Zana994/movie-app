@@ -1,0 +1,62 @@
+.movie-container {
+  display: block;
+}
+
+.movie-container .movie {
+  position: relative;
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+}
+
+.movie-container .movie img {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.movie-container .movie .description-container {
+  background-color: #fafafa;
+  width: 154px;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.movie-container .movie .description-container p {
+  padding: 0.4rem;
+  margin: 0;
+}
+
+.movie-container .movie:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.movie-container .load_more_btn {
+  width: 100px;
+  padding: 0.4rem 0;
+  border-radius: 0.3rem;
+  background-color: #fafafa;
+  color: #979494;
+  letter-spacing: 0.1rem;
+}
+
+.movie-container .load_more_btn:hover {
+  background-color: #1F4287;
+  color: #DDDDDD;
+}
+
+.movie-container .btn-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.movie-container .hidden {
+  display: none;
+}
+/*# sourceMappingURL=displayMovies.css.map */

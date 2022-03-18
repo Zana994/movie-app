@@ -1,0 +1,61 @@
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #DDDDDD;
+  letter-spacing: 0.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .input-group {
+  width: 25vw;
+}
+
+.container ::-webkit-input-placeholder {
+  letter-spacing: 0.1rem;
+}
+
+.container :-ms-input-placeholder {
+  letter-spacing: 0.1rem;
+}
+
+.container ::-ms-input-placeholder {
+  letter-spacing: 0.1rem;
+}
+
+.container ::placeholder {
+  letter-spacing: 0.1rem;
+}
+
+.container .favorites_visited {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15vw;
+}
+
+.container .favorites_visited .line {
+  width: 2px;
+  height: 1.5rem;
+  background-color: #DDDDDD;
+  margin: 0 0.5rem;
+}
+
+.container .favorites_visited p {
+  margin: 0;
+  color: #DDDDDD;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,42 @@
+.movie-container {
+    display: block;
+    .movie {
+        position: relative;
+        transition: transform 0.2s ease-out;
+        img {
+            border-top-left-radius: 0.3rem;
+            border-top-right-radius: 0.3rem;
+        }
+        .description-container {
+            background-color: #fafafa;
+            width: 154px;
+            border-bottom-left-radius: 0.3rem;
+            border-bottom-right-radius: 0.3rem;
+            p {
+                padding: 0.4rem;
+                margin: 0;
+            }
+        }
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+    .load_more_btn {
+        width: 100px;
+        padding: 0.4rem 0;
+        border-radius: 0.3rem;
+        background-color: #fafafa;
+        color: rgb(151, 148, 148);
+        letter-spacing: 0.1rem;
+        &:hover {
+            background-color: #1F4287;
+            color: #DDDDDD;
+        }
+    }
+    .btn-col {
+        display: flex;
+        justify-content: center;
+    }
+    .hidden { display: none;}
+}
